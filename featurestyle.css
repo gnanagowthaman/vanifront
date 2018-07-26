@@ -1,0 +1,65 @@
+.first-sec{
+  /* background-color: #ff99ff; */
+  margin-top: 60px;
+}
+.first-con{   
+  /* background-color: #ff3300; */
+}
+.first-img{
+  /* background-color: #009900; */
+}
+.sec-sec{
+  /* background-color: #ffff00; */
+  margin-top: 60px;
+}
+.second-con{
+  /* background-color: #009933; */
+}
+.second-img{
+  /* background-color: #ffcc00; */
+  margin-top: 37px;
+}
+/*----hover image effect ----*/
+
+.outer-div
+{
+  height: 30vh;
+  overflow: hidden;
+}
+.inner-div
+{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  background-image: url('images/pexels-photo-1181355.jpeg');
+}
+.inner-div:hover
+{
+  transform: scale(1.2);
+}
+
+
+.outer1-div
+{
+  height: 30vh;
+  overflow: hidden;
+  background-color: yellow;
+}
+.inner1-div
+{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  background-image: url('images/man-coffee-cup-pen.jpg');
+  background-color: red;
+}
+.inner1-div:hover
+{
+  transform: scale(1.2);
+  background-color: blue;
+}
+/*----hover image effect ----*/

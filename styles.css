@@ -26,7 +26,7 @@
 /*------------------------------*/
 .ft-section-main{
   /* background-color: #ff9966; */
-  margin-top: 120px;
+  margin-top: 60px;
 }
 .ft-icon-gap{
   margin-top: 12px;
@@ -34,7 +34,7 @@
 .ft-para{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.875rem;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 .ft-sec-row-gap{
   margin-top: 60px;
@@ -83,12 +83,12 @@
 /*------------------------------*/
 .bb-section-one{
   /* background-color: #9933ff; */
-  margin-top: 120px;
+  margin-top: 60px;
 }
 .bb-section-one-para{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.875rem;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 .bb-section-two{
   /* background-color: #9933ff; */
@@ -129,12 +129,12 @@
 /*--------------------------*/
 .pl-section-main{
   /* background-color: #66ffff; */
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .pl-section-one-para{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.875rem;
-  margin-bottom: 130px;
+  margin-bottom: 60px;
 }
 .pl-col-1{
   /* background-color: Yellow; */
@@ -152,12 +152,12 @@
 /*Footer section*/
 /*--------------------------*/
 .foot-gap{
-  margin-top: 120px;
+  margin-top: 60px;
 }
 .dark-grey-text {
     color: #4f4f4f;
 }
-.text-black-50 {
+.text-black-50 {     
     color: rgba(0,0,0,.5)!important;
 }
 footer.page-footer .footer-copyright {
@@ -174,7 +174,6 @@ footer.page-footer .footer-copyright {
 .foot-section-main{
   /* background-color:#ff0066; */
   background-color:black;
-
   padding: 8px;
 }
 address{
@@ -268,7 +267,11 @@ address{
 }
 .grow:hover
 {
-        -webkit-transform: scale(1.3);          
+        -webkit-transform: scale(1.3);
         -ms-transform: scale(1.3);
         transform: scale(1.3);
+}
+
+.log-color a{
+  color: black;
 }

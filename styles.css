@@ -1,3 +1,6 @@
+/*========================================================================================*/
+/* index  html css starts */
+/*========================================================================================*/
 /*------------------------------*/
 /* Navigation Bar */
 /*------------------------------*/
@@ -157,7 +160,7 @@
 .dark-grey-text {
     color: #4f4f4f;
 }
-.text-black-50 {     
+.text-black-50 {
     color: rgba(0,0,0,.5)!important;
 }
 footer.page-footer .footer-copyright {
@@ -197,6 +200,10 @@ address{
 /*---------------------------*/
 /*carousel section*/
 /*--------------------------*/
+.third-slider{
+  position: relative;
+  left:70px;
+}
 .top-back{
   /* background-color: yellow; */
 }
@@ -211,7 +218,8 @@ address{
   bottom: 60px;
 }
 .sec-heading-color{
-  color:black;
+  color: #aec928;    
+  /* background-color: pink; */
 }
 .button {
   background-color: #4CAF50; /* Green */
@@ -275,3 +283,181 @@ address{
 .log-color a{
   color: black;
 }
+/*========================================================================================  */
+/* index  html css end*/
+/*=======================================================================================  */
+
+
+/*========================================================================================  */
+/* Fetures html css starts*/
+/*=======================================================================================  */
+.feature-first-sec{
+  /* background-color: #ff99ff; */
+  margin-top: 60px;
+}
+.feature-first-con{
+  /* background-color: #ff3300; */
+}
+.feature-first-img{
+  /* background-color: #009900; */
+}
+.feature-sec-sec{
+  /* background-color: #ffff00; */
+  margin-top: 60px;
+}
+.feature-second-con{
+  /* background-color: #009933; */
+}
+.feature-second-img{
+  /* background-color: #ffcc00; */
+  margin-top: 37px;
+}
+/*----hover image effect ----*/
+
+.feature-outer-div
+{
+  height: 30vh;
+  overflow: hidden;
+}
+.feature-inner-div
+{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  background-image: url('images/pexels-photo-1181355.jpeg');
+}
+.feature-inner-div:hover
+{
+  transform: scale(1.2);
+}
+
+
+.feature-outer1-div
+{
+  height: 30vh;
+  overflow: hidden;
+  background-color: yellow;
+}
+.feature-inner1-div
+{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  background-image: url('images/man-coffee-cup-pen.jpg');
+  background-color: red;
+}
+.feature-inner1-div:hover
+{
+  transform: scale(1.2);
+  background-color: blue;
+}
+/*----hover image effect ----*/
+/*========================================================================================  */
+/* Fetures html css end*/
+/*=======================================================================================  */
+
+
+/*========================================================================================  */
+/* Solutions html css starts*/
+/*=======================================================================================  */
+.solutions-first-sec{
+  /* background-color: #ff99ff; */
+  margin-top: 60px;
+}
+.solutions-first-con{
+  /* background-color: #ff3300; */
+}
+.solutions-first-img{
+  /* background-color: #009900; */
+}
+.solutions-sec-sec{
+  /* background-color: #ffff00; */
+  margin-top: 60px;
+}
+.solutions-second-con{
+  /* background-color: #009933; */
+}
+.solutions-second-img{
+  /* background-color: #ffcc00; */
+  margin-top: 37px;
+}
+/*========================================================================================  */
+/* Solutions html css ends*/
+/*=======================================================================================  */
+
+/*========================================================================================  */
+/* Plans html css starts*/
+/*=======================================================================================  */
+.plans-first-sec{
+  /* background-color: #ff99ff; */
+  margin-top: 60px;
+}
+.plans-first-con{
+  /* background-color: #ff3300; */
+}
+.plans-first-img{
+  /* background-color: #009900; */
+}
+.plans-sec-sec{
+  /* background-color: #ffff00; */
+  margin-top: 60px;
+}
+.plans-second-con{
+  /* background-color: #009933; */
+}
+.plans-second-con img{
+
+}
+.plans-second-img{
+  /* background-color: #ffcc00; */
+  margin-top: 37px;
+}
+/*========================================================================================  */
+/* Plans html css ends*/
+/*=======================================================================================  */
+
+
+/*========================================================================================  */
+/* About us html css starts*/
+/*=======================================================================================  */
+.about-first-sec{
+  /* background-color: #ff99ff; */
+  margin-top: 60px;
+}
+.about-first-con{
+  /* background-color: #ff3300; */
+}
+.about-first-img{
+  /* background-color: #009900; */
+}
+.about-sec-sec{
+  /* background-color: #ffff00; */
+  margin-top: 60px;
+}
+.about-second-con{
+  /* background-color: #009933; */
+}
+.about-second-img{
+  /* background-color: #ffcc00; */
+  margin-top: 37px;
+}
+/*========================================================================================  */
+/* About us html css ends*/
+/*=======================================================================================  */
+
+/*========================================================================================  */
+/* Contact us html css starts*/
+/*=======================================================================================  */
+.contact-frm-test{
+  margin-top: 60px;
+}
+.contact-txt{
+ margin-bottom: 40px;
+}
+/*========================================================================================  */
+/* Contact us html css ends*/
+/*=======================================================================================  */
